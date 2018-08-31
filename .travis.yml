@@ -5,3 +5,10 @@ cache:
   - node_modules
 env:
 - CI=true
+deploy:
+  provider: heroku
+  api_key:
+    secure: bQzSmKdY/XHJGivHJOaRPV1RBjJ1PZvEfT9Q0yuxPC+q8lR1Jauh0D3m8r/+XUlNlg8CxjW/QyL3eOx49VIKp2ttecpeSPnFCsw5vITGeOeyCu1CmCr/brUVJCeBnC85Cdqo8Y3HJdyK9XslHj3b3y3Y9zq25xMfgGZSHOf+FA8iJGyRFNgi9HgO3oLQb1t62aU1F7OdxU4+A0eOxUkZIBhCf2pTOwrVALnvLPbLw0rEu7Hbf7j3i4RH1W7RePheX0+slGbLDKWfIgKz/RF/IuCCZJth99x16LN4LhjR9o3xYME2oTQTTnY+i38UvOFSdCRiY1iVCKamiV4MfPlIZZw1dOpMZ66mAw52l+CQcT2BxhZJv0fMhURD7aCEc5x5/p1mqiyU1lF4wRSsxKqU4NjMEU9xM60ZOUmbyzTP/LivyKkE0F5AftKfjCpVv61z4/A5AuooK5MXmkGxzjetmWkt/SQEZzTMDukxRK5V55s7uKs1jYPMZjEiUu9xljqAPGnJz8eP21jB64uxLPfSHedmqKt94zvuDOIjFb1OuKqr+CrgkG4xF+etSTyvaRFk1pG/X4RAwJEAWq5cK3l+tif9LzsiIDh2whMsX6rJAXT5TwVC6MseC29NXu+WTZaZLgYMwyZdbfXwwD+qZBFUYvtEt92wFeyUr43iNXFcHJc=
+  app: fast-sea-18285
+  on:
+    repo: ellendunn/react-hot-and-cold-tests
